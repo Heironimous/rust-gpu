@@ -1,0 +1,20 @@
+#+AUTHOR: Ryan Jeffrey
+#+TITLE:  SDL-GPU For Rust
+
+This library contains Rust bindings for [[https://github.com/grimfang4/sdl-gpu][SDL-GPU]] created by [[http://www.dinomage.com/][Jonathan Dearborn]].
+
+* Dependencies
+In order to build and use this library you first need to have SDL2 and 
+SDL-GPU installed on your system.
+On Arch Linux:
+#+BEGIN_SRC shell
+sudo pacman -S sdl2
+#+END_SRC
+
+Then use your AUR manager to get [[https://aur.archlinux.org/packages/sdl2_gpu-git/][sdl2_gpu-git]].
+
+** On Windows
+One of rust-sdl-gpu's dependencies is [[https://github.com/Rust-SDL2/rust-sdl2][rust-sdl2]]. You can follow their
+[[https://github.com/Rust-SDL2/rust-sdl2#windows-with-build-script][instructions for building on windows]].
+
+
